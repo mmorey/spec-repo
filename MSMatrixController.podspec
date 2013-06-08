@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/mmorey/MSMatrixController"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { "Matthew Morey" => "me@matthewmorey.com" }
-    s.source       = { :git => "https://github.com/mmorey/MSMatrixController.git" }
+    s.source       = { :git => "https://github.com/mmorey/MSMatrixController.git", :head }
     s.platform     = :ios, '5.0'
     s.source_files = 'Classes', 'MSMatrixController/*.{h,m}'
     s.requires_arc = true
